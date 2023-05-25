@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="adriandumi968@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>890e3cca-8064-4675-adf6-885559deaa08</external-id>
+        </credentials>
+        <profile>
+            <first-name>Nicolae</first-name>
+            <last-name>Adrian Dumitrascu</last-name>
+            <email>adriandumi968@gmail.com</email>
+        </profile>
+    </user>
+
+</users>

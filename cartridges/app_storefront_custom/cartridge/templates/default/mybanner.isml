@@ -1,0 +1,4 @@
+${dw.content.ContentMgr.getContent(desktop_banner_content_assets_image)};
+<isinclude template="/components/modules" sf-toolkit="off" />
+<iscontentasset aid="desktop_banner_content_assets_image"/>
+

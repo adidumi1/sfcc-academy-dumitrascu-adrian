@@ -1,4 +1,7 @@
-${dw.content.ContentMgr.getContent(desktop_banner_content_assets_image)};
+${dw.content.ContentMgr.getContent()};
 <isinclude template="/components/modules" sf-toolkit="off" />
-<iscontentasset aid="desktop_banner_content_assets_image"/>
-
+<iscontentasset aid="desktop_banner_content_assets_image" var="mybanner" atribute="custom"/>
+<isif condition="${mybanner}">
+   <img src="${mybanner.custom.image.url}" alt="${mybanner.name}" title="${mybanner.name}"/>
+</isif>
+   

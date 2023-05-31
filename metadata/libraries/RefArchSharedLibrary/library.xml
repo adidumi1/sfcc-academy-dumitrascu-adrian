@@ -5410,18 +5410,6 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <page-attributes/>
     </content>
 
- <content content-id="desktop_banner_content_assets_image">
-        <display-name xml:lang="x-default">Desktop Banner</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
-        <page-attributes/>
-        <custom-attributes>
-            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style="text-align: center;"&gt;&lt;span style="font-size:22px;"&gt;My Banner&lt;/span&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p style="text-align:center"&gt;&lt;img alt="My Banner" height="439" src="desktop%20banner.jpg?$staticlink$" title="Desktop Banner" width="660" /&gt;&lt;/p&gt;</custom-attribute>
-        </custom-attributes>
-    </content>
-    
     <content content-id="e1e2eab9a8455daecbcceda4e2">
         <display-name xml:lang="x-default">Product Tile Component</display-name>
         <type>component.commerce_assets.productTile</type>

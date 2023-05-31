@@ -1,0 +1,7 @@
+
+${dw.content.ContentMgr.getContent()};
+<isinclude template="/components/modules" sf-toolkit="off" />
+<iscontentasset aid="free_shipping_over_50_dollars" var="freeShipping" atribute="custom"/>
+<isif condition="${freeShipping}">
+   <img src="${freeShipping.custom.image.url}" alt="${freeShipping.name}" title="${freeShipping.name}"/>
+</isif> 

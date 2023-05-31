@@ -9,7 +9,8 @@
     
     <!-- +1.888.555.0199 --><!--This phone is a requirement to support existing Gomez monitor of SiteGenesis. Demadware customers can remove this.-->
     <div class="home-main homepage">
-    <isinclude template="mybanner" />
+    <iscomment> <isinclude template="mybanner" />  </iscomment>
+    <center><img src="${pdict.desktopBannerImage}" alt="myBanner" id="mybanner"/></center>
     </div>
     
     <div class="home-email-signup">

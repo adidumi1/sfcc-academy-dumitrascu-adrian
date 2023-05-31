@@ -5419,6 +5419,7 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
             <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style="text-align: center;"&gt;&lt;span style="font-size:22px;"&gt;My Banner&lt;/span&gt;&lt;/p&gt;&#13;
 &#13;
 &lt;p style="text-align:center"&gt;&lt;img alt="My Banner" height="439" src="desktop%20banner.jpg?$staticlink$" title="Desktop Banner" width="660" /&gt;&lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="desktop_image">Banner.jpg</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -6176,7 +6177,6 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
 	&lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Go to Jobs"&gt;Jobs&lt;/a&gt;&lt;/li&gt;&#13;
 &lt;/ul&gt;&#13;
 &#13;
-&lt;p&gt;FOUND IT&lt;/p&gt;&#13;
 &lt;!-- END: footer_about --&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;À propos&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;À propos&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
@@ -6228,7 +6228,6 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
 	&lt;li&gt;&lt;a href="$httpsURL('Order-History')$" title="Go to Check Order"&gt;Check Order&lt;/a&gt;&lt;/li&gt;&#13;
 &lt;/ul&gt;&#13;
 &#13;
-&lt;p&gt;FOUND IT&lt;/p&gt;&#13;
 &#13;
 &lt;ul class="menu-footer content"&gt;&lt;!-- &lt;li&gt;&lt;a href="$httpsURL('Wishlist-Search')$" title="Go to Wishlist"&gt;Find a Wishlist&lt;/a&gt;&lt;/li&gt; --&gt;&lt;!-- &lt;li&gt;&lt;a href="$httpsURL('GiftRegistry-Landing')$" title="Go to Gift Registry"&gt;Gift Registry&lt;/a&gt;&lt;/li&gt; --&gt;&#13;
 &lt;/ul&gt;&#13;
@@ -6304,9 +6303,7 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2&gt;&lt;a class="menu-footer locate-store" href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$"&gt;Locate Store&lt;/a&gt;&lt;/h2&gt;&#13;
 &#13;
-&lt;p&gt;&lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p&gt;FOUND IT&lt;/p&gt;</custom-attribute>
+&lt;p&gt;&lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;&lt;/p&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Localiser des magasins&lt;/h2&gt;&lt;/a&gt;&#13;
                 &lt;span class="content"&gt;Le localisateur de magasins vous aide à trouver le magasin le plus proche.&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Trova negozio&lt;/h2&gt;&lt;/a&gt;&#13;
@@ -6387,7 +6384,6 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
 	&lt;li&gt;&lt;a href="#" title="Go to Site Map"&gt;Site Map&lt;/a&gt;&lt;/li&gt;&#13;
 &lt;/ul&gt;&#13;
 &#13;
-&lt;p&gt;FOUND IT&lt;/p&gt;&#13;
 &lt;!-- END: footer_support --&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Service client&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Service client&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
@@ -6417,6 +6413,16 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往帮助"&gt;寻求帮助&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往站点地图"&gt;站点地图&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="free_shipping_over_50_dollars">
+        <display-name xml:lang="x-default">Free Shipping over US$ 50.00</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style="text-align: center;"&gt;&lt;span style="font-size:14px;"&gt;Free Shipping over US$ 50.00&lt;/span&gt;&lt;/p&gt;</custom-attribute>
         </custom-attributes>
     </content>
 
